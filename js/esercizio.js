@@ -7,7 +7,7 @@
 let str = prompt("Inserisci 5 nomi separati da una virgola", `Stefania,Sandro,Maria,Giacomo,Giorgia`);
 let arrAge = [32, 21, 47, 12, 78];
 
-let arr1 = str.split([,]);
+let arr1 = str.split(',');
 
 arr1.push('Franco', 'Valentina');
 arr1.unshift('Giacomo');
